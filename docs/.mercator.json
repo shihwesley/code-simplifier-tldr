@@ -21,6 +21,12 @@
     },
     {
       "path": "docs/.mercator.json",
+      "tokens": 1159,
+      "size_bytes": 3655,
+      "hash": "f6d707171920"
+    },
+    {
+      "path": "docs/.mercator.json.tmp",
       "tokens": 0,
       "size_bytes": 0,
       "hash": "e3b0c44298fc"
@@ -68,11 +74,11 @@
     "commands",
     "docs"
   ],
-  "total_tokens": 6053,
-  "total_files": 10,
+  "total_tokens": 7212,
+  "total_files": 11,
   "skipped": [],
   "merkle": {
-    "root_hash": "3ceb18e22436",
+    "root_hash": "bf12e10ad450",
     "tree": {
       ".claude-plugin/plugin.json": {
         "hash": "8bec8fc4e509",
@@ -111,6 +117,11 @@
         "type": "dir"
       },
       "docs/.mercator.json": {
+        "hash": "f6d707171920",
+        "tokens": 1159,
+        "type": "file"
+      },
+      "docs/.mercator.json.tmp": {
         "hash": "e3b0c44298fc",
         "tokens": 0,
         "type": "file"
@@ -121,9 +132,10 @@
         "type": "file"
       },
       "docs": {
-        "hash": "3e2f9d13f5f1",
+        "hash": "daab66c196bb",
         "children": [
           "docs/.mercator.json",
+          "docs/.mercator.json.tmp",
           "docs/CODEBASE_MAP.md"
         ],
         "type": "dir"
@@ -154,7 +166,7 @@
         "type": "file"
       },
       "/": {
-        "hash": "3ceb18e22436",
+        "hash": "bf12e10ad450",
         "children": [
           ".claude-plugin",
           "agents",
