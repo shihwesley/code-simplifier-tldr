@@ -1,0 +1,161 @@
+{
+  "root": "/Users/quartershots/Source/code-simplifier-tldr",
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "tokens": 212,
+      "size_bytes": 700,
+      "hash": "8bec8fc4e509"
+    },
+    {
+      "path": "agents/code-simplifier.md",
+      "tokens": 2055,
+      "size_bytes": 8645,
+      "hash": "06591ba88688"
+    },
+    {
+      "path": "commands/simplify.md",
+      "tokens": 406,
+      "size_bytes": 1690,
+      "hash": "1fa288337958"
+    },
+    {
+      "path": "docs/.mercator.json",
+      "tokens": 0,
+      "size_bytes": 0,
+      "hash": "e3b0c44298fc"
+    },
+    {
+      "path": "docs/CODEBASE_MAP.md",
+      "tokens": 1657,
+      "size_bytes": 6321,
+      "hash": "97818854ad60"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "tokens": 211,
+      "size_bytes": 853,
+      "hash": "741a0cdc9f45"
+    },
+    {
+      "path": "LICENSE",
+      "tokens": 222,
+      "size_bytes": 1067,
+      "hash": "29ba22db2eee"
+    },
+    {
+      "path": "README.md",
+      "tokens": 681,
+      "size_bytes": 3234,
+      "hash": "a2ee51e15067"
+    },
+    {
+      "path": "SIMPLIFICATION_LOG.md",
+      "tokens": 482,
+      "size_bytes": 2134,
+      "hash": "9a4bb1b3cd14"
+    }
+  ],
+  "directories": [
+    ".claude-plugin",
+    "agents",
+    "commands",
+    "docs"
+  ],
+  "total_tokens": 5926,
+  "total_files": 9,
+  "skipped": [],
+  "merkle": {
+    "root_hash": "605ad3f1e4c5",
+    "tree": {
+      ".claude-plugin/plugin.json": {
+        "hash": "8bec8fc4e509",
+        "tokens": 212,
+        "type": "file"
+      },
+      ".claude-plugin": {
+        "hash": "8addfbff5c02",
+        "children": [
+          ".claude-plugin/plugin.json"
+        ],
+        "type": "dir"
+      },
+      "agents/code-simplifier.md": {
+        "hash": "06591ba88688",
+        "tokens": 2055,
+        "type": "file"
+      },
+      "agents": {
+        "hash": "a2587dca2331",
+        "children": [
+          "agents/code-simplifier.md"
+        ],
+        "type": "dir"
+      },
+      "commands/simplify.md": {
+        "hash": "1fa288337958",
+        "tokens": 406,
+        "type": "file"
+      },
+      "commands": {
+        "hash": "f57e35f9fc36",
+        "children": [
+          "commands/simplify.md"
+        ],
+        "type": "dir"
+      },
+      "docs/.mercator.json": {
+        "hash": "e3b0c44298fc",
+        "tokens": 0,
+        "type": "file"
+      },
+      "docs/CODEBASE_MAP.md": {
+        "hash": "97818854ad60",
+        "tokens": 1657,
+        "type": "file"
+      },
+      "docs": {
+        "hash": "3e2f9d13f5f1",
+        "children": [
+          "docs/.mercator.json",
+          "docs/CODEBASE_MAP.md"
+        ],
+        "type": "dir"
+      },
+      "CHANGELOG.md": {
+        "hash": "741a0cdc9f45",
+        "tokens": 211,
+        "type": "file"
+      },
+      "LICENSE": {
+        "hash": "29ba22db2eee",
+        "tokens": 222,
+        "type": "file"
+      },
+      "README.md": {
+        "hash": "a2ee51e15067",
+        "tokens": 681,
+        "type": "file"
+      },
+      "SIMPLIFICATION_LOG.md": {
+        "hash": "9a4bb1b3cd14",
+        "tokens": 482,
+        "type": "file"
+      },
+      "/": {
+        "hash": "605ad3f1e4c5",
+        "children": [
+          ".claude-plugin",
+          "agents",
+          "commands",
+          "docs",
+          "CHANGELOG.md",
+          "LICENSE",
+          "README.md",
+          "SIMPLIFICATION_LOG.md"
+        ],
+        "type": "dir"
+      }
+    }
+  }
+}
