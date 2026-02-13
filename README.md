@@ -19,13 +19,13 @@ When paired with [mercator-ai](https://github.com/shihwesley/mercator-ai), it us
 
 ```bash
 # Simplify recently modified files
-/simplify
+/simplify-tldr
 
 # Simplify a specific file
-/simplify src/api/auth.ts
+/simplify-tldr src/api/auth.ts
 
 # Simplify files matching a pattern
-/simplify src/components/*.tsx
+/simplify-tldr src/components/*.tsx
 ```
 
 The agent can also be triggered automatically by Claude Code when code simplification tasks are detected.
