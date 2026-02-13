@@ -1,0 +1,11 @@
+{
+  "name": "code-simplifier-tldr",
+  "version": "1.0.0",
+  "description": "TLDR-aware code simplifier — uses AST summaries for context, full reads only for target files. 80%+ token savings on large codebases.",
+  "author": {
+    "name": "shihwesley"
+  },
+  "repository": "https://github.com/shihwesley/code-simplifier-tldr",
+  "license": "MIT",
+  "keywords": ["code-simplifier", "tldr", "ast", "token-optimization", "context-window"]
+}
