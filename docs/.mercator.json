@@ -38,6 +38,12 @@
       "hash": "741a0cdc9f45"
     },
     {
+      "path": "CLAUDE.md",
+      "tokens": 127,
+      "size_bytes": 523,
+      "hash": "f42793320cfd"
+    },
+    {
       "path": "LICENSE",
       "tokens": 222,
       "size_bytes": 1067,
@@ -62,11 +68,11 @@
     "commands",
     "docs"
   ],
-  "total_tokens": 5926,
-  "total_files": 9,
+  "total_tokens": 6053,
+  "total_files": 10,
   "skipped": [],
   "merkle": {
-    "root_hash": "605ad3f1e4c5",
+    "root_hash": "3ceb18e22436",
     "tree": {
       ".claude-plugin/plugin.json": {
         "hash": "8bec8fc4e509",
@@ -127,6 +133,11 @@
         "tokens": 211,
         "type": "file"
       },
+      "CLAUDE.md": {
+        "hash": "f42793320cfd",
+        "tokens": 127,
+        "type": "file"
+      },
       "LICENSE": {
         "hash": "29ba22db2eee",
         "tokens": 222,
@@ -143,13 +154,14 @@
         "type": "file"
       },
       "/": {
-        "hash": "605ad3f1e4c5",
+        "hash": "3ceb18e22436",
         "children": [
           ".claude-plugin",
           "agents",
           "commands",
           "docs",
           "CHANGELOG.md",
+          "CLAUDE.md",
           "LICENSE",
           "README.md",
           "SIMPLIFICATION_LOG.md"
