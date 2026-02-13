@@ -147,32 +147,15 @@ Only refine code that has been recently modified or touched in the current sessi
 
 ---
 
-## TLDR-Optimized Refinement Process
+## Refinement Process
 
-0. **Load project context** (MANDATORY first step)
-   - Check for `docs/CODEBASE_MAP.md` or `docs/code_base.md`
-   - Scan `docs/` folder for other relevant documentation
-   - Note architectural patterns and conventions to preserve
+Follow the Pre-Simplification Context checks above, then:
 
-1. **Get TLDR overview** of recently modified files
-   - Understand structure without consuming full token budget
-   - Note line numbers of functions/classes to examine
-
-2. **Request targeted line ranges** for sections to simplify
-   - Read only the specific functions/methods you'll modify
-   - Include ~10 lines of context above/below
-
-3. **Analyze for improvement opportunities**
-   - Apply project-specific best practices
-   - Identify clarity and consistency improvements
-
-4. **Apply refinements**
-   - Edit the specific sections
-   - Verify functionality is preserved
-
-5. **Verify with targeted reads**
-   - Re-read modified sections to confirm changes
-   - Check that surrounding code still integrates properly
+1. **TLDR overview** — Read recently modified files. Note line numbers of functions/classes worth examining.
+2. **Targeted reads** — Request specific line ranges (~10 lines of context above/below) for sections you'll modify.
+3. **Analyze** — Apply project-specific best practices. Identify clarity and consistency improvements.
+4. **Edit** — Apply refinements. Verify functionality is preserved.
+5. **Verify** — Re-read modified sections. Check surrounding code still integrates.
 
 ---
 
@@ -229,11 +212,6 @@ You have a limited context window. The TLDR + Merkle system helps you use it eff
 5. "Verifying the change integrates properly"
    → Read src/api/auth.ts with offset=35 limit=70
 ```
-
-**Key efficiency gains:**
-- Step 0: Codebase map = instant architecture understanding
-- Step 1: Know exactly which files changed (skip the rest)
-- Step 2: TLDR includes purpose from mercator (no extra lookup)
 
 ---
 
